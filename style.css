@@ -1,0 +1,59 @@
+header {
+    background-color: #b2b2b2;
+    padding : 10px
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline; /* alligns the text in a straight line */ 
+    padding: 15px; /* expands the space */ 
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px; ; /* rounds the boxes */ 
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* removes any unwanted bits */ 
+}
+
+nav ul li:hover {
+    background-color: blueviolet;
+}
+
+body {
+
+    font-family: Verdana;
+    margin: 0; /* makes sure the thing is stretched at the whole page */ 
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+.product{
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
